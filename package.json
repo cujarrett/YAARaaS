@@ -1,0 +1,19 @@
+{
+  "name": "YAARaaS",
+  "version": "0.1.0",
+  "description": "You Are Absolutely Right as a Service",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && rm -f lambda.zip && tsc && cp package.json dist/ && cd dist && npm install --omit=dev && zip -r -q ../lambda.zip . && du -sh * && cd .. && du -sh lambda.zip",
+    "test": "vitest run",
+    "deploy": "aws lambda update-function-code --function-name=yaaraas --zip-file=fileb://lambda.zip --region=us-east-1"
+  },
+  "dependencies": {
+    "zod": "~4.1.12"
+  },
+
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "~4.0.9"
+  }
+}
