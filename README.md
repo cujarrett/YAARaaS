@@ -4,8 +4,7 @@
 
 ## Overview
 
-**You Are Absolutely Right!™
-** is designed to make routine business tasks simple, clear, and manageable. No flashy gimmicks, just tools that help you make informed decisions efficiently.
+**You Are Absolutely Right!** is designed to make routine business tasks simple, clear, and manageable. No flashy gimmicks, just tools that help you make informed decisions efficiently.
 
 We take care of analytics, automation, reports, and integrations so your team can focus on the work that actually matters.
 
