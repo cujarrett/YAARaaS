@@ -1,4 +1,4 @@
-![logo](./logo.png)
+![logo](./readme-logo.png)
 
 **You Are Absolutely Right as a Service!** _Software that helps your business run smoothly!_
 
