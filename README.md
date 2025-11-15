@@ -1,6 +1,6 @@
 ![logo](./logo.png)
 
-**You Are Absolutely Right as a Service!** _Software that helps your business run smoothly, without unnecessary drama_
+**You Are Absolutely Right as a Service!** _Software that helps your business run smoothly!_
 
 ## Overview
 
