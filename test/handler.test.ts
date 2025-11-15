@@ -7,6 +7,6 @@ describe("YAARaaS", () => {
     const res = await handler()
     const parsed = ResponseSchema.parse(res)
     const body = JSON.parse(parsed.body)
-    expect(body.message).toBe("You are absolutely right!")
+    expect(body.message).toBe("You are absolutely right — absolutely!")
   })
 })

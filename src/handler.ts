@@ -7,7 +7,7 @@ export const handler = async () => {
       "Content-Type": "application/json",
       "Cache-Control": "public, max-age=31536000"
     },
-    body: JSON.stringify({ message: "You are absolutely right!" })
+    body: JSON.stringify({ message: "You are absolutely right — absolutely!" })
   }
 
   ResponseSchema.parse(response) // validate shape
